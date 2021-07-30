@@ -97,7 +97,7 @@ third_std_deviation_start, third_std_deviation_end = mean-(3*std_deviation), mea
 # fig.add_trace(go.Scatter(x=[mean_of_sample2, mean_of_sample2], y=[0, 0.17], mode="lines", name="MEAN OF STUDENTS WHO HAD EXTRA CLASSES"))
 # fig.add_trace(go.Scatter(x=[first_std_deviation_end, first_std_deviation_end], y=[0, 0.17], mode="lines", name="STANDARD DEVIATION 1 END"))
 # fig.add_trace(go.Scatter(x=[second_std_deviation_end, second_std_deviation_end], y=[0, 0.17], mode="lines", name="STANDARD DEVIATION 2 END"))
-# fig.show()
+ fig.show()
 
 
 # finding the mean of the THIRD data (STUDENTS WHO GOT FUNSHEET) and plotting it on the plot.
